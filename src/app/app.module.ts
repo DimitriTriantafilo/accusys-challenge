@@ -18,6 +18,10 @@ import { DialogExampleComponent } from './dialog-example/dialog-example.componen
 
 const routes: Routes = [
   {
+    path: '',
+    component: PostsListComponent
+  },
+  {
     path: "post-list",
     component: PostsListComponent
   },
