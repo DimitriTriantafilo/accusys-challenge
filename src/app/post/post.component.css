@@ -9,8 +9,8 @@
     border-width: 2px;
     border-radius: 1rem;
     margin: 1rem;
-    background: rgba( 255, 255, 255, 0.40 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background: rgba(16, 10, 51, 0.651);
+    box-shadow: 0 0px 2px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4.0px );
     -webkit-backdrop-filter: blur( 4.0px );
     border-radius: 10px;
@@ -23,18 +23,19 @@
     font-weight: 300;
     text-align: justify;
     text-justify: inter-word;
+    color: white ;
 }
 .post-userId{
     align-self: flex-start;
     font-family: "Source Sans Pro", "Arial", sans-serif;
     font-weight: 100;
     font-size: 0.8rem;
-    
+    color: rgb(105, 163, 144);
 }
 .expansive{
     border-radius: 1rem;
     
 }
 .títulos{
-    color: #0095c4
+    color: #f1f1f1
 }
