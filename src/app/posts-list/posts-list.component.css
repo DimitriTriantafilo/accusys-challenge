@@ -5,7 +5,7 @@
 .butns{
    
     display: flex;
-    margin-bottom: 0.2rem;
+    margin-bottom: 1rem;
     justify-content: center;
     align-content: center;
     width: 100%;
@@ -17,10 +17,13 @@
     align-items: center;
     border-radius: 2rem;
     margin-top: 2rem;
+
    
 }
 .title{
     margin-right: 1rem;
+    margin-top: 0.5rem;
+    font-size: 2rem;
 }
 .post-list-container{
     display: flex;
@@ -28,4 +31,7 @@
     justify-content: center;
     margin-top: 4rem;
     min-height: 93vh;
+}
+.form-control{
+    margin-top: -3rem;
 }
