@@ -2,6 +2,7 @@
     text-align: justify;
     display: flex;
     font-weight: 800;
+    flex-direction: column;
 }
 .cmentario{
     margin-bottom: 2rem;
