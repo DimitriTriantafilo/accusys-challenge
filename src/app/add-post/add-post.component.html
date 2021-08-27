@@ -1,0 +1,24 @@
+<div class="container">
+<div class="forms">
+        <div class="mat-headline"> Add Post </div>
+        
+        <form [formGroup]="form" (ngSubmit)="onSubmit()" class="formulary"  #formDirective="ngForm" >
+        <mat-form-field >
+            <mat-label>Title</mat-label>
+            <input class="ancho" matInput formControlName="title" autocomplete="off" type="text"/>
+            
+        </mat-form-field>
+            <br/> 
+        <mat-form-field>
+            <mat-label>Body</mat-label>
+            <textarea class="ancho" matInput autocomplete="off" formControlName="body" type="text"></textarea>
+            <mat-hint>post content</mat-hint>
+        </mat-form-field>
+        <br/>
+        <div class="submit-clear">
+            <button mat-raised-button (click)="openDialog()" color="primary" type="submit" [disabled]="form.invalid"> save </button>
+            <button mat-raised-button type="reset" > clear</button>
+        </div>
+        </form>
+    </div>
+</div>

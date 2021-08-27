@@ -1,0 +1,24 @@
+
+<th class="fila">
+<div class="mat-title títulos">{{ post?.title }}</div>
+<p class="post-body mat-body-1">{{ post?.body }}</p>
+<p class="post-userId"> user: {{post?.userId}}</p>
+<mat-expansion-panel class="expansive" (click)="viewComments()"  #mapanel="matExpansionPanel">
+    <mat-expansion-panel-header>
+        <mat-panel-title>
+            ver comentarios
+        </mat-panel-title>
+       
+    </mat-expansion-panel-header>
+    <div>
+        <app-comment *ngFor="let comment of listOfComments" [comment]="comment"></app-comment>
+    </div>      
+    <mat-action-row>
+        <button mat-button color="primary" (click)="mapanel.close()" > cerrar </button>
+    </mat-action-row>
+</mat-expansion-panel>
+</th>
+
+
+<br/>
+<br/>

@@ -1,0 +1,34 @@
+
+<div class="post-list-container">
+<div class="post-container">
+<div class=" title-input">  <div class="mat-headline title">Lista de Posts</div>
+<mat-form-field >
+    <mat-label>Buscar por id</mat-label>
+    <input matInput type="text"
+        class="form-control"
+        #txtSearch
+        (keyup)="onSearchPost( txtSearch.value )"
+/>
+</mat-form-field>
+</div>
+
+<table class="table table-bordered">
+<app-post *ngFor="let post of listOfPosts | paginado:page:search" [post]="post"></app-post>
+</table>
+<div class="butns">
+
+<button mat-raised-button color="primary" (click)="onAnterior()">
+    Anteriores
+</button>
+
+
+&nbsp;
+
+&nbsp;
+
+<button mat-raised-button color="primary" (click)="onSiguiente()">
+    siguientes
+</button>
+</div>
+</div>
+</div>

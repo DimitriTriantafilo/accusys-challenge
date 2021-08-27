@@ -1,0 +1,40 @@
+
+.fila{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    align-content: flex-start;
+    border-color: gray;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 1rem;
+    margin: 1rem;
+    background: rgba( 255, 255, 255, 0.40 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.0px );
+    -webkit-backdrop-filter: blur( 4.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 1rem;
+}
+
+.post-body{
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.post-userId{
+    align-self: flex-start;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    font-weight: 100;
+    font-size: 0.8rem;
+    
+}
+.expansive{
+    border-radius: 1rem;
+    
+}
+.títulos{
+    color: #0095c4
+}
